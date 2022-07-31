@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Compose Your Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/compose.css">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <p class="navbar-brand">DAILY BLOGGER</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- 6 -->
+                <li id="home"><a href="/">HOME</a></li>
+                <li id="about"><a href="/about">ABOUT US</a></li>
+                <li id="compose"><a href="/compose">COMPOSE</a></li>
+                <li id="blog"><a href="/blogs">BLOGS</a></li>
+                <li id="register"><a href="/register">REGISTER</a></li>
+                <li id="login"><a href="/login">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<body>
+    <div class="container1">
+        <form class="" action="/compose" method="post">
+
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" name="userName" autocomplete="off" autofocus required>
+            </div>
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" class="form-control" name="postTitle" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+                <label>Post</label>
+                <textarea class="form-control" rows="25" name="postBody" autocomplete="off" required></textarea>
+            </div>
+                <button type="submit" name="button">Publish</button>
+        </form>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/rujul_09/"><i class="icon ion-social-instagram"></i></a><a href="https://www.snapchat.com/add/rujuld09?sender_web_id=df3b587d-1ac2-4335-a392-0bfc00371558&device_type=desktop&is_copy_url=true"><i class="icon ion-social-snapchat"></i></a><a href="https://twitter.com/Rujul_14"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/in/rujul-dudhat-7b530b226/"><i class="icon ion-social-linkedin"></i></a></div>
+            <p class="copyright">Daily Blogger © 2022</p>
+        </footer>
+    </div>
+</body>
+
+</html>

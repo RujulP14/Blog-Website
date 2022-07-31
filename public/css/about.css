@@ -1,0 +1,110 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 7px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #D1512D;
+}
+body{
+    background-color: #FFDEB4;
+}
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.paragraph{
+    padding: 10%;
+    padding-top: 4%;
+    font-size: 150%;
+    color: black;
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:black;
+  color:black;
+}
+
+.footer-basic{
+    background-color: transparent;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:black;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:black;
+  margin-bottom:0;
+}
+
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
